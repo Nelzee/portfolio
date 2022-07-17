@@ -1,0 +1,19 @@
+#about_me {
+  height: 50vh;
+}
+
+#about_text_container {
+  margin-inline: auto;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.about_text {
+  padding-block: 30px;
+}
+
+#about_text_2 > * {
+  text-align: end;
+}

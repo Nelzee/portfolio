@@ -1,0 +1,26 @@
+#nav_container {
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(1px);
+  z-index: 11;
+}
+
+#nav_inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 65px;
+  background-color: rgba(217, 221, 224, 0.5);
+  padding-inline: 20px;
+}
+
+#nav_items > li {
+  display: inline-block;
+  list-style: none;
+  padding-inline: 7px;
+  color: black;
+}
+
+#nav_items > li a {
+  color: black;
+}

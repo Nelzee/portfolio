@@ -1,0 +1,43 @@
+:root {
+  --celadon-blue: #0081a7ff;
+  --maximum-blue-green: #00afb9ff;
+  --light-yellow: #fdfcdcff;
+  --peach-puff: #fed9b7ff;
+  --bittersweet: #f07167ff;
+
+  --celadon-blue: hsla(194, 100%, 33%, 1);
+  --maximum-blue-green: hsla(183, 100%, 36%, 1);
+  --light-yellow: hsla(58, 89%, 93%, 1);
+  --peach-puff: hsla(29, 97%, 86%, 1);
+  --bittersweet: hsla(4, 82%, 67%, 1);
+}
+
+#home {
+  height: 50vh;
+  position: relative;
+}
+
+#header_text {
+  position: absolute;
+  left: 15%;
+  top: 20%;
+}
+
+#background_graphics {
+  width: 100%;
+  height: 100%;
+}
+
+#background_left {
+  display: inline-block;
+  width: 70%;
+  height: 100%;
+  background-color: var(--celadon-blue);
+}
+
+#background_right {
+  display: inline-block;
+  width: 30%;
+  height: 100%;
+  background-color: var(--peach-puff);
+}
