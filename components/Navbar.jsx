@@ -3,7 +3,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav>
+    <nav className="flex justify-between align-middle">
       <div className="logo">
         <h3>Nelson</h3>
       </div>
